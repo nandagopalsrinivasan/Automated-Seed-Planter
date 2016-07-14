@@ -29,7 +29,7 @@ void setupAccelerometer()
 		writeRegister(CTRL_REG3, 0x03);
 //Enabling the data ready interrupt
 		writeRegister(CTRL_REG4, 0x01);
-//Routing the interrupt to pin INT1 on the accelerometer
+//Routing the interrupt to pin INT1 on the accelerometer 
 		writeRegister(CTRL_REG5, 0x01);
 //Now that the device is configured, setting the device into active mode.
 		data = readRegister(CTRL_REG1);
