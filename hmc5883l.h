@@ -16,7 +16,6 @@
        
 #define declination_angle     -0.5167   // For Uttara, Dhaka, Bangladesh   
 
-                                   
 #use I2C(MASTER, SDA = pin_B7, SCL = pin_B6)   
                                              
                                    
