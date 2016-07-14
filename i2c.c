@@ -76,5 +76,3 @@ void I2CReadN(uint8_t slaveAddress, uint8_t startRegister, uint8_t *data, int n)
 		I2CMasterControl(I2C0_BASE, I2C_MASTER_CMD_BURST_RECEIVE_FINISH);
 		while(I2CMasterBusy(I2C0_BASE));
 	}
-
-
