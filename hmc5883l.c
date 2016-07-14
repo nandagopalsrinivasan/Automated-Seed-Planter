@@ -69,7 +69,7 @@ void HMC5883L_set_scale(float gauss)
       m_scale = 0.73;
    } 
    
-   else if(gauss == 1.3)   
+   else if(gauss == 1.3)
    {
       value = 0x01;
       m_scale = 0.92;     
